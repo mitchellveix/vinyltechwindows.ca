@@ -98,6 +98,17 @@
      "spacing": {
       "blockGap": "0"
     },
+    "blocks": {
+      "core/navigation": {
+        "typography": {
+          "fontWeight": "700",
+          "textTransform": "uppercase"
+        },
+        "spacing": {
+          "blockGap": "25px"
+        }
+      }
+    },
 
     "elements": {
       "heading": {

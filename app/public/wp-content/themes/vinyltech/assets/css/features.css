@@ -1,0 +1,168 @@
+.features-wrapper {
+	background:#fafafa;
+	padding:60px 40px;
+}
+
+
+/* Eyebrow */
+
+.features-eyebrow {
+	color:#7f2320;
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+	margin:0 0 10px;
+}
+
+
+/* Heading */
+
+.features-heading {
+	color:#000;
+	margin:0 0 50px;
+}
+
+
+
+/* Columns */
+
+.features-columns {
+	display:flex;
+	align-items:stretch;
+	margin:0;
+}
+
+
+.feature-column {
+
+	display:flex;
+	align-items:flex-start;
+
+	padding:0 35px;
+
+	margin:0 !important;
+
+}
+
+
+
+/* Divider */
+
+.feature-column:not(:first-child) {
+
+	border-left:1px solid rgba(0,0,0,.12);
+
+}
+
+
+
+/* Feature layout */
+
+.feature-item {
+
+	display:flex;
+	align-items:flex-start;
+	gap:18px;
+
+	width:100%;
+
+	margin:0;
+
+}
+
+
+
+.feature-content {
+
+	margin:0;
+
+}
+
+
+.feature-content h3 {
+
+	margin-top:0;
+	margin-bottom:10px;
+
+}
+
+
+.feature-content p {
+
+	margin:0;
+
+}
+
+
+
+/* Icon */
+
+.feature-icon {
+
+	width:40px;
+	height:40px;
+
+	flex:none;
+
+	margin:0;
+
+}
+
+
+/* Remove WordPress image spacing */
+
+.feature-icon img {
+
+	width:40px;
+	height:40px;
+
+	object-fit:contain;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:767px) {
+
+
+	.features-wrapper {
+
+		padding:40px 20px;
+
+	}
+
+
+	.features-columns {
+
+		display:block;
+
+	}
+
+
+	.feature-column {
+
+		padding:25px 0;
+
+		border-left:none !important;
+
+		border-bottom:1px solid rgba(0,0,0,.12);
+
+	}
+
+
+	.feature-column:first-child {
+
+		padding-top:0;
+
+	}
+
+
+	.feature-column:last-child {
+
+		border-bottom:none;
+
+	}
+
+}

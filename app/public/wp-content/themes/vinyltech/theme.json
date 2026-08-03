@@ -80,7 +80,9 @@
                 "name": "Large",
                 "size": "64px"
             }
-        ]
+        ],
+
+        "blockGap": "0"
     }
   },
 
@@ -92,6 +94,9 @@
   "styles": {
     "typography": {
       "fontFamily": "var:preset|font-family|body"
+    },
+     "spacing": {
+      "blockGap": "0"
     },
 
     "elements": {

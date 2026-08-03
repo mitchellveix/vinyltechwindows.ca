@@ -23,6 +23,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech-features',
+        get_template_directory_uri() . '/assets/css/features.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -55,6 +62,17 @@ function vinyltech_register_pattern_files(){
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/hero.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/features',
+        array(
+            'title' => 'Features',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/features.php'
             )
         )
     );

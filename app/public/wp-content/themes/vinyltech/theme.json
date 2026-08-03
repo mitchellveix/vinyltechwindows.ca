@@ -7,6 +7,14 @@
     "appearanceTools": true,
 
     "color": {
+      "gradients": [
+				{
+					"name": "White to Transparent",
+					"slug": "white-to-transparent",
+					"gradient": "linear-gradient(90deg, #ffffff 0%, rgba(255,255,255,0) 75%)"
+				}
+			],
+      
       "palette": [
         {
           "slug": "primary",

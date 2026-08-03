@@ -1,0 +1,69 @@
+/* ==========================================================
+   VinylTech Hero
+   ========================================================== */
+
+/* Desktop */
+.vinyltech-hero .wp-block-group {
+	max-width: 100%;
+}
+
+/* ==========================================================
+   Mobile
+   ========================================================== */
+
+@media (max-width: 768px) {
+
+    .vinyltech-hero .wp-block-group {
+        justify-content: center !important;
+
+        .clear-all {
+            display: none;
+        }
+    }
+	/* Hide the Cover image */
+	.vinyltech-hero .wp-block-cover__image-background {
+		display: none !important;
+	}
+
+	/* Hide the white gradient overlay */
+	.vinyltech-hero .wp-block-cover__background {
+		display: none !important;
+	}
+
+	/* White background */
+	.vinyltech-hero {
+		background: #ffffff !important;
+		min-height: auto !important;
+		padding: 50px 25px !important;
+	}
+
+	/* Full-width content */
+	.vinyltech-hero .wp-block-cover__inner-container {
+		width: 100%;
+	}
+
+	.vinyltech-hero .wp-block-group {
+		max-width: 100% !important;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	/* Center text */
+	.vinyltech-hero h1,
+	.vinyltech-hero h2,
+	.vinyltech-hero h3,
+	.vinyltech-hero p {
+		text-align: center !important;
+	}
+
+	/* Center buttons */
+	.vinyltech-hero .wp-block-buttons {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Smaller heading */
+	.vinyltech-hero h1 {
+		font-size: 36px !important;
+	}
+}

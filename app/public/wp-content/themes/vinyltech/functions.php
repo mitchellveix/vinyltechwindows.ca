@@ -16,6 +16,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech-hero',
+        get_template_directory_uri() . '/assets/css/hero.css',
+        array(),
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -44,7 +51,7 @@ function vinyltech_register_pattern_files(){
     register_block_pattern(
         'vinyltech/hero',
         array(
-            'title' => 'VinylTech Hero',
+            'title' => 'Hero',
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/hero.php'

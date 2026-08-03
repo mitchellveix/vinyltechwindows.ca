@@ -3,121 +3,108 @@
  * Title: VinylTech Hero
  * Slug: vinyltech/hero
  * Categories: featured
- * Description: Hero section for VinylTech homepage
+ * Keywords: hero, banner, cover, call to action
+ * Description: Hero section with editable background image, gradient overlay, text and button.
  */
 ?>
 
 <!-- wp:cover {
-	"url":"http://localhost:10003/wp-content/uploads/2026/07/STOCK-REPLACE-front-page-hero-1024x683.jpg",
-	"id":13,
-	"dimRatio":90,
+	"url":"",
+	"id":0,
+	"dimRatio":0,
+	"customOverlayColor":"#ffffff",
 	"isUserOverlayColor":true,
-	"focalPoint":{"x":0.45,"y":0.21},
-	"minHeight":500,
-	"customGradient":"linear-gradient(90deg,rgb(255,255,255) 26%,rgb(254,254,255) 42%,rgba(155,81,224,0) 100%)",
-	"sizeSlug":"large",
+	"minHeight":650,
+	"minHeightUnit":"px",
+	"gradient":"white-to-transparent",
+	"contentPosition":"center left",
 	"layout":{
 		"type":"constrained",
-		"contentSize":"85%",
-		"wideSize":"100%"
+		"justifyContent":"left"
+	},
+	"align":"full",
+	"style":{
+		"spacing":{
+			"padding":{
+				"top":"80px",
+				"bottom":"80px",
+				"left":"70px",
+				"right":"40px"
+			}
+		}
 	}
 } -->
+<div class="wp-block-cover alignfull vinyltech-hero" style="padding-top:80px;padding-right:40px;padding-bottom:80px;padding-left:70px;min-height:600px">
 
-<div class="wp-block-cover" style="min-height:500px">
-
-	<img
-		class="wp-block-cover__image-background wp-image-13 size-large"
-		alt=""
-		src="http://localhost:10003/wp-content/uploads/2026/07/STOCK-REPLACE-front-page-hero-1024x683.jpg"
-		style="object-position:45% 21%"
-		data-object-fit="cover"
-		data-object-position="45% 21%"
-	/>
-
-	<span
-		aria-hidden="true"
-		class="wp-block-cover__background has-background-dim-90 has-background-dim wp-block-cover__gradient-background has-background-gradient"
-		style="background:linear-gradient(90deg,rgb(255,255,255) 26%,rgb(254,254,255) 42%,rgba(155,81,224,0) 100%)">
-	</span>
+	<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-white-to-transparent-gradient-background"></span>
 
 	<div class="wp-block-cover__inner-container">
 
-		<!-- wp:group {"layout":{"type":"grid","columnCount":2}} -->
-
+		<!-- wp:group {
+			"layout":{
+				"type":"constrained",
+				"contentSize":"100%",
+				"justifyContent":"left"
+			}
+		} -->
 		<div class="wp-block-group">
 
-			<!-- wp:group {"layout":{"type":"constrained"}} -->
+			<!-- wp:paragraph {
+				"style":{
+					"typography":{
+						"textTransform":"uppercase",
+						"fontSize":"small",
+						"fontWeight":"600"
+					}
+				},
+				"textColor":"primary"
+			} -->
+			<p class="has-primary-color has-text-color" style="font-size:medium;font-weight:700;text-transform:uppercase">Your Eyebrow Text</p>
+			<!-- /wp:paragraph -->
 
-			<div class="wp-block-group">
 
-				<!-- wp:heading {
-					"style":{
-						"elements":{
-							"link":{
-								"color":{
-									"text":"var:preset|color|black"
-								}
-							}
-						}
-					},
-					"textColor":"black",
-					"fontSize":"x-large"
+			<!-- wp:heading {
+				"level":1,
+				"textAlign":"left",
+				"style":{
+					"typography":{
+						"fontSize":"48px",
+						"fontWeight":"700"
+					}
+				},
+				"textColor":"black"
+			} -->
+			<h1 class="wp-block-heading has-text-align-left has-black-color has-text-color" style="font-size:48px;font-weight:700">Your Main Hero Headline Goes Here</h1>
+			<!-- /wp:heading -->
+
+
+			<!-- wp:paragraph {
+				"textColor":"black",
+				"fontSize":"medium"
+			} -->
+			<p class="has-black-color has-text-color has-medium-font-size">Add supporting hero copy here. Explain your product, service, or value proposition.</p>
+			<!-- /wp:paragraph -->
+
+
+			<!-- wp:buttons -->
+			<div class="wp-block-buttons">
+
+				<!-- wp:button {
+					"backgroundColor":"primary",
+					"textColor":"white"
 				} -->
-
-				<h2 class="wp-block-heading has-black-color has-text-color has-link-color has-x-large-font-size">
-					Premium Windows &amp; Doors
-				</h2>
-
-				<!-- /wp:heading -->
-
-				<!-- wp:paragraph {
-					"style":{
-						"elements":{
-							"link":{
-								"color":{
-									"text":"var:preset|color|black"
-								}
-							}
-						}
-					},
-					"textColor":"black"
-				} -->
-
-				<p class="has-black-color has-text-color has-link-color">
-					Serving Southwestern Ontario Serving Southwestern Ontario
-					Serving Southwestern Ontario Serving Southwestern Ontario
-				</p>
-
-				<!-- /wp:paragraph -->
-
-				<!-- wp:buttons -->
-
-				<div class="wp-block-buttons">
-
-					<!-- wp:button -->
-
-					<div class="wp-block-button">
-						<a class="wp-block-button__link wp-element-button">
-							Request Quote
-						</a>
-					</div>
-
-					<!-- /wp:button -->
-
+				<div class="wp-block-button">
+					<a class="wp-block-button__link has-white-color has-primary-background-color has-text-color has-background wp-element-button">Learn More</a>
 				</div>
-
-				<!-- /wp:buttons -->
+				<!-- /wp:button -->
 
 			</div>
-
-			<!-- /wp:group -->
+			<!-- /wp:buttons -->
 
 		</div>
-
 		<!-- /wp:group -->
 
 	</div>
 
 </div>
-
 <!-- /wp:cover -->

@@ -29,6 +29,18 @@
   }
 }
 
+@media (max-width: 810px) {
+  .top-nav-padding {
+	padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 484px) {
+  .wp-container-core-group-is-layout-761040bf {
+	gap: 10px !important;
+  }
+}
+
 @media (max-width: 1100px) {
   .wp-block-navigation__responsive-container {
     display: none;

@@ -9,3 +9,68 @@
 [31-Jul-2026 22:09:31] NOTICE: exiting, bye-bye!
 [02-Aug-2026 13:35:03] NOTICE: fpm is running, pid 1168
 [02-Aug-2026 13:35:03] NOTICE: ready to handle connections
+[07-Aug-2026 10:20:31] NOTICE: fpm is running, pid 17435
+[07-Aug-2026 10:20:36] NOTICE: ready to handle connections
+[07-Aug-2026 10:20:50] NOTICE: Terminating ...
+[07-Aug-2026 10:20:50] NOTICE: exiting, bye-bye!
+[07-Aug-2026 10:20:59] NOTICE: fpm is running, pid 17538
+[07-Aug-2026 10:20:59] NOTICE: ready to handle connections
+[07-Aug-2026 10:31:35] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:31:35] ERROR: FPM initialization failed
+[07-Aug-2026 10:31:36] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:31:36] ERROR: FPM initialization failed
+[07-Aug-2026 10:31:37] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:31:37] ERROR: FPM initialization failed
+[07-Aug-2026 10:31:37] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:31:37] ERROR: FPM initialization failed
+[07-Aug-2026 10:35:24] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:35:24] ERROR: FPM initialization failed
+[07-Aug-2026 10:35:24] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:35:24] ERROR: FPM initialization failed
+[07-Aug-2026 10:35:25] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:35:25] ERROR: FPM initialization failed
+[07-Aug-2026 10:35:26] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[07-Aug-2026 10:35:26] ERROR: FPM initialization failed
+[07-Aug-2026 10:41:20] NOTICE: fpm is running, pid 2457
+[07-Aug-2026 10:41:20] NOTICE: ready to handle connections
+[07-Aug-2026 10:43:00] NOTICE: Terminating ...
+[07-Aug-2026 10:43:00] NOTICE: exiting, bye-bye!
+[07-Aug-2026 10:43:05] NOTICE: fpm is running, pid 2629
+[07-Aug-2026 10:43:05] NOTICE: ready to handle connections
+[07-Aug-2026 10:43:22] NOTICE: Terminating ...
+[07-Aug-2026 10:43:22] NOTICE: exiting, bye-bye!
+[07-Aug-2026 10:43:23] NOTICE: fpm is running, pid 2661
+[07-Aug-2026 10:43:23] NOTICE: ready to handle connections
+[07-Aug-2026 10:47:22] NOTICE: Terminating ...
+[07-Aug-2026 10:47:22] NOTICE: exiting, bye-bye!
+[07-Aug-2026 10:48:21] NOTICE: fpm is running, pid 3515
+[07-Aug-2026 10:48:21] NOTICE: ready to handle connections
+[07-Aug-2026 10:50:22] NOTICE: Terminating ...
+[07-Aug-2026 10:50:22] NOTICE: exiting, bye-bye!
+[07-Aug-2026 10:51:26] NOTICE: fpm is running, pid 3767
+[07-Aug-2026 10:51:26] NOTICE: ready to handle connections
+[07-Aug-2026 11:03:08] NOTICE: Terminating ...
+[07-Aug-2026 11:03:08] NOTICE: exiting, bye-bye!
+[07-Aug-2026 11:03:16] NOTICE: fpm is running, pid 5050
+[07-Aug-2026 11:03:16] NOTICE: ready to handle connections
+[07-Aug-2026 11:13:31] NOTICE: Terminating ...
+[07-Aug-2026 11:13:31] NOTICE: exiting, bye-bye!
+[07-Aug-2026 11:13:59] NOTICE: fpm is running, pid 5687
+[07-Aug-2026 11:13:59] NOTICE: ready to handle connections
+[07-Aug-2026 11:15:26] NOTICE: Terminating ...
+[07-Aug-2026 11:15:26] NOTICE: exiting, bye-bye!
+[07-Aug-2026 11:16:01] NOTICE: fpm is running, pid 5922
+[07-Aug-2026 11:16:01] NOTICE: ready to handle connections
+[07-Aug-2026 11:24:54] NOTICE: Terminating ...
+[07-Aug-2026 11:24:54] NOTICE: Terminating ...
+[07-Aug-2026 11:24:54] NOTICE: exiting, bye-bye!
+[07-Aug-2026 12:33:31] NOTICE: fpm is running, pid 9481
+[07-Aug-2026 12:33:31] NOTICE: ready to handle connections
+[07-Aug-2026 13:28:34] NOTICE: Terminating ...
+[07-Aug-2026 13:28:34] NOTICE: exiting, bye-bye!
+[07-Aug-2026 13:29:11] NOTICE: fpm is running, pid 11272
+[07-Aug-2026 13:29:11] NOTICE: ready to handle connections
+[07-Aug-2026 13:46:07] NOTICE: Terminating ...
+[07-Aug-2026 13:46:07] NOTICE: exiting, bye-bye!
+[07-Aug-2026 13:46:12] NOTICE: fpm is running, pid 12072
+[07-Aug-2026 13:46:12] NOTICE: ready to handle connections

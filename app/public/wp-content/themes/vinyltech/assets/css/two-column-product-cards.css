@@ -1,0 +1,179 @@
+/* Two Column Product Cards
+--------------------------------------------- */
+
+.product-cards-pattern {
+	padding-inline: clamp(1.25rem, 4vw, 2rem);
+	padding-top: 30px;
+}
+
+.product-cards-pattern__header {
+	margin-bottom: clamp(2rem, 4vw, 2rem);
+}
+
+.product-cards-pattern__eyebrow,
+.product-card__eyebrow {
+	color: var(--wp--preset--color--primary);
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.product-cards-pattern__eyebrow {
+	margin-bottom: 0.5rem;
+}
+
+.product-cards-pattern__header h2 {
+	color: #000;
+	margin-top: 0;
+}
+
+
+/*
+ * Main two-column layout
+ */
+
+.product-cards-pattern__columns {
+	gap: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+
+/*
+ * Individual card
+ *
+ * Image on left, content on right.
+ */
+
+.product-card {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+	align-items: stretch;
+	height: 100%;
+	margin: 0;
+}
+
+.product-card__image {
+	margin: 0;
+	min-height: 100%;
+}
+
+.product-card__image img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	max-height: 320px;
+	object-fit: cover;
+}
+
+.product-card__content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: clamp(1.5rem, 3vw, 2.5rem);
+	background: #f5f5f5;
+}
+
+.product-card__content > * {
+	width: 100%;
+}
+
+.product-card__eyebrow {
+	margin-top: 0;
+	margin-bottom: 0.75rem;
+}
+
+.product-card__content h3 {
+	color: #000;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.product-card__content p:not(.product-card__eyebrow):not(.product-card__cta) {
+	margin-top: 0;
+}
+
+.product-card__cta {
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.product-card__cta a {
+	color: var(--wp--preset--color--primary);
+	text-decoration: none;
+}
+
+.product-card__cta a:hover,
+.product-card__cta a:focus-visible {
+	text-decoration: underline;
+}
+
+.product-card__cta span {
+	display: inline-block;
+	margin-left: 0.5rem;
+	transition: transform 0.2s ease;
+}
+
+.product-card__cta a:hover span,
+.product-card__cta a:focus-visible span {
+	transform: translateX(0.25rem);
+}
+
+
+/*
+ * Tablet
+ *
+ * Keep the two main cards side by side, but stack
+ * the image above the text inside each card.
+ */
+
+@media (max-width: 1100px) {
+	.product-card {
+		grid-template-columns: 1fr;
+	}
+
+	.product-card__image img {
+		aspect-ratio: 16 / 10;
+		min-height: 0;
+	}
+}
+
+
+/*
+ * Mobile
+ *
+ * Collapse the two main columns into one centered column.
+ */
+
+@media (max-width: 781px) {
+	.product-cards-pattern__columns {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.product-cards-pattern__columns > .wp-block-column {
+		flex-basis: auto !important;
+		width: 100%;
+		max-width: 42rem;
+	}
+
+	.product-card__content {
+		text-align: center;
+		align-items: center;
+	}
+
+	.product-card__content > * {
+		width: 100%;
+	}
+
+	.product-card__content h3,
+	.product-card__content p {
+		text-align: center;
+	}
+}

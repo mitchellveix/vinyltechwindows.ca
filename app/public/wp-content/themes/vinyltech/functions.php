@@ -30,6 +30,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/two-column-product-cards',
+        get_template_directory_uri() . '/assets/css/two-column-product-cards.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -73,6 +80,17 @@ function vinyltech_register_pattern_files(){
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/features.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/two-column-product-cards',
+        array(
+            'title' => 'Two Column Product Cards',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/two-column-product-cards.php'
             )
         )
     );

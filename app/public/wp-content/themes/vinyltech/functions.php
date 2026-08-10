@@ -3,6 +3,13 @@
 function vinyltech_styles(){
 
     wp_enqueue_style(
+        'vinyltech-style',
+        get_stylesheet_uri(),
+        array(),
+        wp_get_theme()->get('Version')
+    );
+
+    wp_enqueue_style(
         'vinyltech-header',
         get_template_directory_uri() . '/assets/css/header.css',
         array(),

@@ -44,6 +44,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/content-image-right',
+        get_template_directory_uri() . '/assets/css/content-image-right.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(

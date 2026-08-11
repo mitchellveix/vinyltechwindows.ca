@@ -109,6 +109,17 @@ function vinyltech_register_pattern_files(){
         )
     );
 
+    register_block_pattern(
+        'vinyltech/content-image-right',
+        array(
+            'title' => 'Content + Image Right',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/content-image-right.php'
+            )
+        )
+    );
+
 }
 
 add_action(

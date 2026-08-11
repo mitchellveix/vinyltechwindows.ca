@@ -1,110 +1,29 @@
-<?php
-/**
- * Title: VinylTech Hero
- * Slug: vinyltech/hero
- * Categories: featured
- * Keywords: hero, banner, cover, call to action
- * Description: Hero section with editable background image, gradient overlay, text and button.
- */
-?>
+<!-- wp:cover {"url":"http://localhost:10005/wp-content/uploads/2026/07/STOCK-REPLACE-front-page-hero-scaled.jpg","id":13,"dimRatio":90,"isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.5},"minHeight":650,"customGradient":"linear-gradient(90deg,rgb(254,254,254) 46%,rgba(155,81,224,0) 100%)","contentPosition":"center left","sizeSlug":"full","className":"hero-main","style":{"spacing":{"padding":{"left":"100px"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-center-left hero-main" style="padding-left:100px;min-height:650px"><img class="wp-block-cover__image-background wp-image-13 size-full" alt="" src="http://localhost:10005/wp-content/uploads/2026/07/STOCK-REPLACE-front-page-hero-scaled.jpg" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgb(254,254,254) 46%,rgba(155,81,224,0) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"hero-content","layout":{"type":"constrained","contentSize":"100%","wideSize":"100%"}} -->
+<div class="wp-block-group hero-content"><!-- wp:paragraph {"className":"hero-eyebrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontSize":"16px","textTransform":"uppercase"},"spacing":{"margin":{"bottom":"12px"}}},"textColor":"primary"} -->
+<p class="hero-eyebrow has-primary-color has-text-color has-link-color" style="margin-bottom:12px;font-size:16px;text-transform:uppercase"><strong>BEAUTIFUL. EFFICIENT. BUILT TO LAST.</strong></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:cover {
-	"url":"",
-	"id":0,
-	"dimRatio":0,
-	"customOverlayColor":"#ffffff",
-	"isUserOverlayColor":true,
-	"minHeight":650,
-	"minHeightUnit":"px",
-	"gradient":"white-to-transparent",
-	"contentPosition":"center left",
-	"layout":{
-		"type":"constrained",
-		"justifyContent":"left"
-	},
-	"align":"full",
-	"style":{
-		"spacing":{
-			"padding":{
-				"top":"80px",
-				"bottom":"80px",
-				"left":"70px",
-				"right":"40px"
-			}
-		}
-	}
-} -->
-<div class="wp-block-cover alignfull vinyltech-hero" style="padding-top:80px;padding-right:40px;padding-bottom:80px;padding-left:70px;min-height:600px">
+<!-- wp:heading {"level":1,"className":"hero-title","style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} -->
+<h1 class="wp-block-heading hero-title has-black-color has-text-color has-link-color">Better Windows.</h1>
+<!-- /wp:heading -->
 
-	<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-white-to-transparent-gradient-background"></span>
+<!-- wp:heading {"level":1,"className":"hero-title","style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"textColor":"black"} -->
+<h1 class="wp-block-heading hero-title has-black-color has-text-color has-link-color">Better Doors.</h1>
+<!-- /wp:heading -->
 
-	<div class="wp-block-cover__inner-container">
+<!-- wp:heading {"level":1,"className":"hero-title","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"spacing":{"margin":{"bottom":"17px"}}},"textColor":"primary"} -->
+<h1 class="wp-block-heading hero-title has-primary-color has-text-color has-link-color" style="margin-bottom:17px">Better Home.</h1>
+<!-- /wp:heading -->
 
-		<!-- wp:group {
-			"layout":{
-				"type":"constrained",
-				"contentSize":"100%",
-				"justifyContent":"left"
-			}
-		} -->
-		<div class="wp-block-group">
+<!-- wp:paragraph {"className":"hero-description","style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"typography":{"lineHeight":"1.9"},"spacing":{"margin":{"bottom":"40px"}}},"textColor":"black"} -->
+<p class="hero-description has-black-color has-text-color has-link-color" style="margin-bottom:40px;line-height:1.9">Premium windows and doors designed for<br class="clear-all">comfort, styles and long-lasting performance.<br class="clear-all">Proudly installed in homes across Canada.</p>
+<!-- /wp:paragraph -->
 
-			<!-- wp:paragraph {
-				"style":{
-					"typography":{
-						"textTransform":"uppercase",
-						"fontSize":"small",
-						"fontWeight":"600"
-					}
-				},
-				"textColor":"primary"
-			} -->
-			<p class="has-primary-color has-text-color" style="font-size:medium;font-weight:700;text-transform:uppercase">Your Eyebrow Text</p>
-			<!-- /wp:paragraph -->
-
-
-			<!-- wp:heading {
-				"level":1,
-				"textAlign":"left",
-				"style":{
-					"typography":{
-						"fontSize":"48px",
-						"fontWeight":"700"
-					}
-				},
-				"textColor":"black"
-			} -->
-			<h1 class="wp-block-heading has-text-align-left has-black-color has-text-color" style="font-size:48px;font-weight:700">Your Main Hero Headline Goes Here</h1>
-			<!-- /wp:heading -->
-
-
-			<!-- wp:paragraph {
-				"textColor":"black",
-				"fontSize":"medium"
-			} -->
-			<p class="has-black-color has-text-color has-medium-font-size">Add supporting hero copy here. Explain your product, service, or value proposition.</p>
-			<!-- /wp:paragraph -->
-
-
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons">
-
-				<!-- wp:button {
-					"backgroundColor":"primary",
-					"textColor":"white"
-				} -->
-				<div class="wp-block-button">
-					<a class="wp-block-button__link has-white-color has-primary-background-color has-text-color has-background wp-element-button">Learn More</a>
-				</div>
-				<!-- /wp:button -->
-
-			</div>
-			<!-- /wp:buttons -->
-
-		</div>
-		<!-- /wp:group -->
-
-	</div>
-
-</div>
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","className":"hero-button","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}}}} -->
+<div class="wp-block-button hero-button"><a class="wp-block-button__link has-primary-background-color has-background wp-element-button" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px">GET A FREE QUOTE</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div></div>
 <!-- /wp:cover -->

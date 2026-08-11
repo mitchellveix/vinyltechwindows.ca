@@ -5,6 +5,10 @@
         flex-wrap: nowrap !important;
     }
 
+    h2.wp-block-heading {
+        margin-bottom: 20px !important;
+    }
+
     .wp-block-column.four-column-collapse {
         flex: none !important;
         width: 100% !important;

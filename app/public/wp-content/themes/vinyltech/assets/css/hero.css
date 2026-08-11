@@ -1,69 +1,29 @@
-/* ==========================================================
-   VinylTech Hero
-   ========================================================== */
+@media only screen and (max-width: 850px) {
+	.hero-main {
+		padding-left: 0px !important;
+		min-height: unset !important;
+		justify-content: center !important;
+		text-align: center !important;
+		padding-top: 40px;
 
-/* Desktop */
-.vinyltech-hero .wp-block-group {
-	max-width: 100%;
-}
-
-/* ==========================================================
-   Mobile
-   ========================================================== */
-
-@media (max-width: 768px) {
-
-    .vinyltech-hero .wp-block-group {
-        justify-content: center !important;
-
-        .clear-all {
+		 .clear-all {
             display: none;
         }
-    }
-	/* Hide the Cover image */
-	.vinyltech-hero .wp-block-cover__image-background {
-		display: none !important;
-	}
 
-	/* Hide the white gradient overlay */
-	.vinyltech-hero .wp-block-cover__background {
-		display: none !important;
-	}
+		.hero-content {
+			width: 85%;
+		}
 
-	/* White background */
-	.vinyltech-hero {
-		background: #ffffff !important;
-		min-height: auto !important;
-		padding: 50px 25px !important;
-	}
+		img.wp-block-cover__image-background {
+			display: none;
+		}
 
-	/* Full-width content */
-	.vinyltech-hero .wp-block-cover__inner-container {
-		width: 100%;
-	}
+		.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-center-left .wp-block-cover__inner-container {
+			margin: 0 auto !important;
+		}
 
-	.vinyltech-hero .wp-block-group {
-		max-width: 100% !important;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	/* Center text */
-	.vinyltech-hero h1,
-	.vinyltech-hero h2,
-	.vinyltech-hero h3,
-	.vinyltech-hero p {
-		text-align: center !important;
-	}
-
-	/* Center buttons */
-	.vinyltech-hero .wp-block-buttons {
-		display: flex;
-		justify-content: center;
-	}
-
-	/* Smaller heading */
-	.vinyltech-hero h1 {
-		font-size: 36px !important;
+		.wp-block-buttons {
+			justify-content: center;
+		}
 	}
 }

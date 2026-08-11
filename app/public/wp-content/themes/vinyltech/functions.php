@@ -44,6 +44,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/two-column-cards',
+        get_template_directory_uri() . '/assets/css/two-column-cards.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -98,6 +105,17 @@ function vinyltech_register_pattern_files(){
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/content-image-right.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/two-column-cards',
+        array(
+            'title' => 'Two Column Cards',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/two-column-cards.php'
             )
         )
     );

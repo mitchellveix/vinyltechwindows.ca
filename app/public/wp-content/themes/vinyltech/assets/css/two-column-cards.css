@@ -1,0 +1,20 @@
+.two-column-cards-main {
+    .wp-block-image img {
+        height: 350px !important;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        figure {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 781px) {
+        .two-column-cards-collapse {
+            flex: none !important;
+            width: 100% !important;
+            display: block !important;
+            padding-top: 30px;
+        }
+    }
+}

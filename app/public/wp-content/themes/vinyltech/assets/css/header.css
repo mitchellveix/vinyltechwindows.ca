@@ -1,14 +1,63 @@
-.wp-block-site-logo img {
-    max-width:180px;
+.quote-button a {
+  background-color: var(--wp--preset--color--primary);
+  color: white !important;
+  padding: 12px 24px !important;
+  text-decoration: none;
+  border-radius: 0;
+  display: inline-block;
 }
 
-.quote-button a {
-	background-color: var(--wp--preset--color--primary);
-	color: white !important;
-	padding: 12px 24px;
-	text-decoration: none;
-	border-radius: 0;
-	display: inline-block;
+@media (max-width: 950px) {
+  .header-logo {
+    flex-basis: unset !important;
+  }
+
+  .header-top-bar-content {
+    justify-content: center;
+  }
+
+  .wp-block-columns.header-top-bar-main {
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .wp-block-column.header-top-bar-collapse {
+    flex: none !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .wp-block-navigation__responsive-container-open {
+    display: flex !important;
+  }
+
+  .wp-block-navigation__responsive-container:not(.is-menu-open) {
+    display: none !important;
+  }
+}
+
+@media (min-width: 950px) {
+    .wp-block-navigation__responsive-container-open {
+        display: none !important;
+    }
+
+    .wp-block-navigation__responsive-container:not(.is-menu-open) {
+        display: block !important;
+    }
+}
+
+@media (max-width: 450px) {
+  .header-contact {
+    display: none !important;
+  }
+}
+
+.wp-block-navigation__container {
+  padding-right: 30px;
+}
+
+.wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
+  padding-right: 30px;
 }
 
 .header-phone-email a {
@@ -18,6 +67,19 @@
 .header-phone-email a:hover {
 	text-decoration: underline;
 }
+
+.wp-block-navigation__container a:hover {
+  text-decoration: underline;
+}
+
+/* 
+.wp-block-site-logo img {
+    max-width:180px;
+}
+
+
+
+
 
 @media (min-width: 1101px) {
   .wp-block-navigation__responsive-container-open {
@@ -49,4 +111,4 @@
   .wp-block-navigation__responsive-container-open {
     display: flex;
   }
-}
+} */

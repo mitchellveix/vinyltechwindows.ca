@@ -1,0 +1,40 @@
+<!-- wp:template-part {"slug":"header","theme":"vinyltech"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group">
+
+	<!-- wp:heading {"level":1} -->
+	<h1 class="wp-block-heading">Windows</h1>
+	<!-- /wp:heading -->
+
+	<!-- wp:paragraph -->
+	<p>Explore our selection of high-quality, energy-efficient windows for your home.</p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:query {"query":{"inherit":true},"displayLayout":{"type":"flex","columns":3}} -->
+		<!-- wp:post-template -->
+
+			<!-- wp:post-title {"isLink":true} /-->
+
+			<!-- wp:post-excerpt /-->
+
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-no-results -->
+			<!-- wp:paragraph -->
+			<p>No windows found.</p>
+			<!-- /wp:paragraph -->
+		<!-- /wp:query-no-results -->
+
+		<!-- wp:query-pagination -->
+			<!-- wp:query-pagination-previous /-->
+			<!-- wp:query-pagination-numbers /-->
+			<!-- wp:query-pagination-next /-->
+		<!-- /wp:query-pagination -->
+
+	<!-- /wp:query -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"vinyltech"} /-->

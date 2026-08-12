@@ -44,6 +44,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/banner',
+        get_template_directory_uri() . '/assets/css/banner.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -109,6 +116,17 @@ function vinyltech_register_pattern_files(){
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/two-column-cards.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/banner',
+        array(
+            'title' => 'Banner',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/banner.php'
             )
         )
     );

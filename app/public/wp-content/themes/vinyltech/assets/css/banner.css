@@ -1,0 +1,15 @@
+@media only screen and (max-width: 850px) {
+    .banner-icon {
+        margin: 0 auto !important;
+        padding-bottom: 28px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-cta {
+        justify-content: center !important;
+        padding-top: 28px;
+    }
+}

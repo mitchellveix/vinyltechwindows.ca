@@ -51,6 +51,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/contact',
+        get_template_directory_uri() . '/assets/css/contact.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -127,6 +134,17 @@ function vinyltech_register_pattern_files(){
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/banner.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/contact',
+        array(
+            'title' => 'Contact',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/contact.php'
             )
         )
     );

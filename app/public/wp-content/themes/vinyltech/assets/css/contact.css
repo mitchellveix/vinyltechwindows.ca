@@ -1,0 +1,17 @@
+.contact-form {
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .wpcf7-submit {
+        background-color: #000000;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 15px;
+        width: 200px;
+    }
+}

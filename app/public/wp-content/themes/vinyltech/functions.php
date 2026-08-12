@@ -17,13 +17,6 @@ function vinyltech_styles(){
     );
 
     wp_enqueue_style(
-        'vinyltech-footer',
-        get_template_directory_uri() . '/assets/css/footer.css',
-        array(),
-        wp_get_theme()->get('Version')
-    );
-
-    wp_enqueue_style(
         'vinyltech-hero',
         get_template_directory_uri() . '/assets/css/hero.css',
         array(),

@@ -6,3 +6,15 @@
 2026/08/06 13:29:30 [alert] 48096#0: *3137 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10003
 2026/08/06 13:29:30 [alert] 48096#0: *3140 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10003
 2026/08/06 13:29:30 [alert] 48096#0: *3141 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10003
+2026/08/13 12:02:54 [alert] 19641#0: *10100 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/13 12:02:54 [alert] 19641#0: *10101 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/13 12:02:54 [alert] 19641#0: *10102 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/13 14:17:31 [crit] 19641#0: *10643 pread() "/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-content/uploads/2026/08/shield.png" failed (60: Operation timed out) while sending response to client, client: ::1, server: , request: "GET /wp-content/uploads/2026/08/shield.png HTTP/1.1", host: "localhost:10005", referrer: "http://localhost:10005/"
+2026/08/14 11:06:29 [alert] 19641#0: *11410 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/14 11:17:07 [alert] 19641#0: *11467 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/14 11:17:16 [alert] 19641#0: *11472 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/14 11:17:16 [alert] 19641#0: *11473 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/14 11:17:16 [alert] 19641#0: *11474 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/14 11:17:16 [alert] 19641#0: *11476 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/14 11:17:16 [alert] 19641#0: *11477 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005
+2026/08/14 11:17:16 [alert] 19641#0: *11479 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: ::1, server: [::1]:10005

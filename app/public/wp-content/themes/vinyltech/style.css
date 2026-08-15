@@ -5,3 +5,15 @@ Version: 1.0
 Description: Custom Block Theme for VinylTech Windows & Doors
 Text Domain: vinyltech
 */
+
+
+@media only screen and (max-width: 781px) {
+    .home-testimonials {
+        border-left: none !important;
+        padding-left: 0 !important;
+    }
+
+    .home-gallery-testimonials-main.is-layout-flex {
+        display: block !important;
+    }
+}

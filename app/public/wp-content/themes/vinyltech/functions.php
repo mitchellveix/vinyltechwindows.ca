@@ -58,6 +58,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/testimonials',
+        get_template_directory_uri() . '/assets/css/testimonials.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -149,9 +156,47 @@ function vinyltech_register_pattern_files(){
         )
     );
 
+    register_block_pattern(
+        'vinyltech/gallery',
+        array(
+            'title' => 'Gallery',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/gallery.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/testimonials',
+        array(
+            'title' => 'Testimonials',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/testimonials.php'
+            )
+        )
+    );
+
 }
 
 add_action(
     'init',
     'vinyltech_register_pattern_files'
+);
+
+function vinyltech_enqueue_testimonial_scripts() {
+
+    wp_enqueue_script(
+        'vinyltech-testimonials',
+        get_template_directory_uri() . '/assets/js/testimonials.js',
+        array(),
+        '1.0',
+        true
+    );
+}
+
+add_action(
+    'wp_enqueue_scripts',
+    'vinyltech_enqueue_testimonial_scripts'
 );

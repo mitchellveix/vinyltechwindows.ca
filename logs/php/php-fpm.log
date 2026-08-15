@@ -74,3 +74,25 @@
 [07-Aug-2026 13:46:07] NOTICE: exiting, bye-bye!
 [07-Aug-2026 13:46:12] NOTICE: fpm is running, pid 12072
 [07-Aug-2026 13:46:12] NOTICE: ready to handle connections
+[15-Aug-2026 14:46:58] NOTICE: fpm is running, pid 3309
+[15-Aug-2026 14:47:01] NOTICE: ready to handle connections
+[15-Aug-2026 15:13:21] NOTICE: Terminating ...
+[15-Aug-2026 15:13:21] NOTICE: exiting, bye-bye!
+[15-Aug-2026 15:13:27] NOTICE: fpm is running, pid 5436
+[15-Aug-2026 15:13:27] NOTICE: ready to handle connections
+[15-Aug-2026 15:18:05] NOTICE: Terminating ...
+[15-Aug-2026 15:18:05] NOTICE: exiting, bye-bye!
+[15-Aug-2026 15:18:10] NOTICE: fpm is running, pid 5656
+[15-Aug-2026 15:18:10] NOTICE: ready to handle connections
+[15-Aug-2026 15:18:35] NOTICE: Terminating ...
+[15-Aug-2026 15:18:35] NOTICE: exiting, bye-bye!
+[15-Aug-2026 15:18:48] NOTICE: fpm is running, pid 5743
+[15-Aug-2026 15:18:48] NOTICE: ready to handle connections
+[15-Aug-2026 15:26:39] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[15-Aug-2026 15:26:39] ERROR: FPM initialization failed
+[15-Aug-2026 15:26:40] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[15-Aug-2026 15:26:40] ERROR: FPM initialization failed
+[15-Aug-2026 15:26:40] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[15-Aug-2026 15:26:40] ERROR: FPM initialization failed
+[15-Aug-2026 15:26:41] ERROR: Another FPM instance seems to already listen on /Users/mitch.veix/Library/Application Support/Local/run/WocAEAhKX/php/php-fpm.socket
+[15-Aug-2026 15:26:41] ERROR: FPM initialization failed

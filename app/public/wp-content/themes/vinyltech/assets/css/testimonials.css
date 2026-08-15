@@ -1,0 +1,49 @@
+.testimonial-slides {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px 40px;
+}
+
+.testimonial-slide {
+    display: none;
+}
+
+.testimonial-slide.is-active {
+    display: block;
+}
+
+.testimonial-quote {
+    margin: 0;
+    font-size: 20px;
+}
+
+.testimonial-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-prev,
+.testimonial-next {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    border-radius: 24px;
+}
+
+.testimonial-counter {
+    margin: 0;
+}
+
+.testimonial-name {
+    font-style: italic;
+}
+
+.red-quote {
+    color: var(--wp--preset--color--primary) !important;
+    font-size: 50px;
+    line-height: 0;
+    font-family: none;
+}

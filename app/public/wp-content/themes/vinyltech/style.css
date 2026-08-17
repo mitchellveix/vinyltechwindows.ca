@@ -17,3 +17,13 @@ Text Domain: vinyltech
         display: block !important;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .why-vt-image {
+        display: none !important;
+    }
+    .why-vt-icon {
+        margin: 0 auto !important;
+        padding-bottom: 30px;
+    }
+}

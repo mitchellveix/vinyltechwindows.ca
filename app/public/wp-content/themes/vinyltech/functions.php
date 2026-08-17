@@ -65,6 +65,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/two-columns-with-icons',
+        get_template_directory_uri() . '/assets/css/two-columns-with-icons.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -174,6 +181,17 @@ function vinyltech_register_pattern_files(){
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/testimonials.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/two-columns-with-icons',
+        array(
+            'title' => 'Two Columns with Icons',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/two-columns-with-icons.php'
             )
         )
     );

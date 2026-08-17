@@ -27,3 +27,14 @@ Text Domain: vinyltech
         padding-bottom: 30px;
     }
 }
+
+.faq-question {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #a78033;
+    margin-bottom: 10px;
+}
+
+.faq-answer {
+    padding: 0px 20px 30px 20px;
+}

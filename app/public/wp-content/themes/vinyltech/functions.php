@@ -72,6 +72,13 @@ function vinyltech_styles(){
         wp_get_theme()->get('Version')
     );
 
+    wp_enqueue_style(
+        'vinyltech/questions',
+        get_template_directory_uri() . '/assets/css/questions.css',
+        [],
+        wp_get_theme()->get('Version')
+    );
+
 }
 
 add_action(
@@ -192,6 +199,17 @@ function vinyltech_register_pattern_files(){
             'content' => file_get_contents(
                 get_template_directory() 
                 . '/patterns/two-columns-with-icons.php'
+            )
+        )
+    );
+
+    register_block_pattern(
+        'vinyltech/questions',
+        array(
+            'title' => 'Questions',
+            'content' => file_get_contents(
+                get_template_directory() 
+                . '/patterns/questions.php'
             )
         )
     );

@@ -322,3 +322,136 @@ Stack trace:
 [11-Aug-2026 19:33:12 UTC] PHP Warning:  file_get_contents(/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-content/themes/vinyltech/patterns/two-column-cards.php): Failed to open stream: No such file or directory in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-content/themes/vinyltech/functions.php on line 116
 [12-Aug-2026 15:55:20 UTC] PHP Warning:  file_get_contents(/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-content/themes/vinyltech/patterns/banner.php): Failed to open stream: No such file or directory in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-content/themes/vinyltech/functions.php on line 127
 [15-Aug-2026 19:39:13 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/Requests/src/Transport/Curl.php on line 206
+[17-Aug-2026 21:04:10 UTC] PHP Warning:  Undefined array key 0 in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-content/plugins/contact-form-7/includes/file.php on line 278
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190
+[18-Aug-2026 15:48:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-includes/query.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php:190
+Stack trace:
+#0 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1374): require()
+#1 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1293): WP_CLI\Runner->load_wordpress()
+#2 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#3 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#4 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#5 phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php(20): include('phar:///Applica...')
+#6 /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar(4): include('phar:///Applica...')
+#7 {main}
+  thrown in /Users/mitch.veix/Library/CloudStorage/OneDrive-MilesPartnership/Desktop/vinyltechwindows.ca/app/public/wp-settings.php on line 190

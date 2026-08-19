@@ -38,3 +38,27 @@ Text Domain: vinyltech
 .faq-answer {
     padding: 0px 20px 30px 20px;
 }
+
+@media only screen and (max-width: 781px) {
+    .contact-page-icon {
+        padding-right: 30px;
+    }
+}
+
+.contact-page {
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .wpcf7-submit {
+        background-color: #a78033;
+        color: #fff;
+        border: 1px solid #000000;
+        padding: 15px;
+        width: 200px;
+    }
+}
